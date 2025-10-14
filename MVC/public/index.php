@@ -4,4 +4,4 @@
     require_once("../routes/web.php");
 
 ?>
-    <link rel="stylesheet" href="../public/css/style.css">
+<link rel="stylesheet" href="../public/css/style.css">
