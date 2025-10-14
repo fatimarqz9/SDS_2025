@@ -12,7 +12,7 @@
         <div class="logo">SDS<span>25</span></div>
             <ul>
                 <li><a href="../public">Home</a></li>
-                <li><a href="#">Día 1</a></li>
+                <li><a href="dia1">Día 1</a></li>
                 <li><a href="#">Día 2</a></li>
                 <li><a href="#">Día 3</a></li>
                 <li><a href="#">Día 4</a></li>
@@ -28,7 +28,7 @@
     </section>
 
     <section class="contenido-home">
-
+            <h1>¿Qué es la Semana de Sistemas?</h1>
     </section>
 
 </body>
