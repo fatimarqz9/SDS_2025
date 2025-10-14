@@ -38,6 +38,15 @@
 
         </div>
     </section>
+    <section class="Ponencia">
+        <div class="titulo">
+            <h1>Ponencia 1: "ABC del Bitcoin”</h1>
+            <h2>Ponente: MSc. Luis Contreras</h2>
+        </div>
+        <div class="contenido_ponencia">
+            
+        </div>
+    </section>
 </body>
 
 </html>

@@ -114,3 +114,17 @@ body {
     width: 30%;
     padding: 20px;
 }
+
+.Ponencia {
+    background-color: #fbf9e4;
+    width: 100%;
+    display: flex;
+}
+
+.titulo {
+    text-align: center;
+    color: #122c4f;
+    width: 100%;
+    padding: 30px;
+    background-color: #D1E8FC;
+}
