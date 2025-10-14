@@ -17,7 +17,7 @@
                 <li><a href="#">Día 3</a></li>
                 <li><a href="#">Día 4</a></li>
                 <li><a href="#">Día 5</a></li>
-                <li><a href="#">Mi información</a></li>
+                <li><a href="#">Perfil</a></li>
                 <li><a href="#">Registrar visita</a></li>
             </ul>
     </nav>

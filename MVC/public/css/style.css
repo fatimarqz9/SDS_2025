@@ -78,14 +78,13 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    margin-top: 80px; /* Para que no quede debajo del navbar */
 }
 
 .dia1_intro {
     color: white;
     font-size: 20px;
-    width: 70%;
-    padding: 40px;
+    width: 65%;
+    padding-left: 40px;
 }
 
 .dia1_intro h1,
@@ -100,8 +99,8 @@ body {
     background-repeat: no-repeat;
     width: 400px;
     height: 400px;
-    width: 30%;
-    padding: 20px;
+    width: 35%;
+    padding: 40px;
 }
 
 .ponencia {
@@ -126,20 +125,24 @@ body {
     color: #122c4f;
     font-size: 20px;
 }
-
+.subtema_ponencia p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}
 .contenido {
     display: flex;
     flex-direction: row;
-    position: relative; /* AGREGADO */
+    position: relative; 
 }
 
 .sidebar {
-    position: sticky; /* CAMBIADO: de fixed a sticky */
+    position: sticky; 
     left: 0;
-    top: 80px; /* Se queda pegado al navbar cuando scrolleas */
+    top: 80px; 
     width: 200px;
-    height: calc(100vh - 100px); /* CAMBIADO: altura según el contenido */
-    max-height: calc(100vh - 100px); /* Altura máxima */
+    height: calc(100vh - 100px); 
+    max-height: calc(100vh - 100px); 
     background-color: #122c4f;
     padding: 20px;
     overflow-y: auto;
@@ -172,6 +175,31 @@ body {
 
 .section_ponencias {
     background-color: #D1E8FC;
-    flex: 1; /* AGREGADO: ocupa el espacio restante */
+    flex: 1; 
     
+}
+
+.comparacion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: row;
+    background-color: #FBF3F9;
+    border: 2px solid #122c4f;
+}
+
+
+
+.bitcoin{
+    width: 50%;
+    border-left: #122c4f 2px solid;
+}
+.bitcoin h4, 
+.fiat h4
+{
+    text-align: center;
+}
+.fiat{
+    width: 50%;
+
 }
