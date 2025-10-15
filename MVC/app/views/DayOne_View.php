@@ -179,6 +179,7 @@
 
                 </div>
             </section>
+            <hr>
 
             <section class="ponencia" id="IA_Generativa">
                 <div class="titulo">
@@ -286,7 +287,7 @@
                     </div>
 
             </section>
-
+<hr>
 
             <section class="ponencia" id="Hackaton">
                 <div class="titulo">
@@ -305,9 +306,25 @@
                     <div class="subtema_ponencia">
                         <h3>Desarrollo de la Hackaton de la Semana de Sistemas 2025</h3>
                         <p>
-                            La hackaton de la Semana de Sistemas 2025 dio inició alrededor de las 2:00 pm donde se definieron los grupos de trabajo y se asignó el contexto en el cual tenian que desarrollar su problematica y respectiva solución.
-                            Algunos de los grupos de trabajo ya llevaban su probematica y  su solución resulta, por lo que
+                            La hackaton de la Semana de Sistemas 2025 dio inicio alrededor de las 2:00 pm donde se definieron los grupos de trabajo y se asignó el contexto en el cual tenian que desarrollar su problematica y respectiva solución.
+                            Algunos de los grupos de trabajo ya llevaban su problematica y  su solución resuelta, por lo que durante el tiempo de preparación se dedicaron a perfeccionar detalles.
+
+                            <br>
+                            Participaron 5 equipos en total
+                            <br>
+                            <ul>
+                                <li>Luis y su pandilla que presentaron una problematica sobre la gestion de citas en una veterinaria.</li>
+                                <li>Los Mcnificos, que presentaron solamente la problematica sobre un sistema de gestion de reservas y asistencia.</li>
+                                <li>Web Team, que presento una aplicación de Bingo, los presentes en la hackaton participamos en una partida para ver si la aplicación funcionaba correctamente </li>
+                                <li>Negreria Boys, que solamente era Luis Galeas, presentó un sistema de citas en consola para una veterinaria.</li>
+                                <li>Y por ultimo los Franquitos, que presentaron un sistema de gestión de notas tambien en consola.</li>
+                            </ul> 
                         </p>
+                        <p>
+                            A la hora de la premiación, en quinto lugar quedaron los Mcnificos, en cuarto lugar los Franquitos, en tercer lugar Luis Galeas, en segundo lugar Luis y su pandilla y los ganadores fueron los Web Team.
+
+                        </p>
+                        <p>Y de esa manera concluyó el primer día de la Semana de Sistemas 2025.</p>
                     </div>
                 </div>
             </section>
