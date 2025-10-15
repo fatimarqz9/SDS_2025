@@ -57,6 +57,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 
@@ -125,6 +126,7 @@ body {
     color: #122c4f;
     font-size: 20px;
 }
+
 .subtema_ponencia p,
 .subtema_ponencia ul,
 .subtema_ponencia ol {
@@ -132,25 +134,26 @@ body {
     font-size: 18px;
     line-height: 1.6;
 }
+
 .contenido {
     display: flex;
     flex-direction: row;
-    position: relative; 
+    position: relative;
 }
 
 .sidebar {
-    position: sticky; 
+    position: sticky;
     left: 0;
-    top: 80px; 
+    top: 80px;
     width: 200px;
-    height: calc(100vh - 100px); 
-    max-height: calc(100vh - 100px); 
+    height: calc(100vh - 100px);
+    max-height: calc(100vh - 100px);
     background-color: #122c4f;
     padding: 20px;
     overflow-y: auto;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
     z-index: 999;
-    align-self: flex-start; 
+    align-self: flex-start;
 }
 
 .sidebar ul {
@@ -177,11 +180,11 @@ body {
 
 .section_ponencias {
     background-color: #D1E8FC;
-    flex: 1; 
-    
+    flex: 1;
+
 }
 
-.comparacion{
+.comparacion {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -193,22 +196,76 @@ body {
 
 
 
-.bitcoin{
+.bitcoin {
     width: 50%;
     border-left: #122c4f 2px solid;
     padding-right: 15px;
 }
-.bitcoin h4, 
-.fiat h4
-{
+
+.bitcoin h4,
+.fiat h4 {
     text-align: center;
     padding-right: 20px;
 }
-.fiat{
+
+.fiat {
     width: 50%;
 
 }
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
 }
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+    padding:20px;
+}
+
+.galeria_img {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+    cursor: pointer;
+}
+
+.galeria_img img,
+.galeria_img video {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.contenido h2 {
+    color: #122c4f;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenido-home {
+    background-color: #D1E8FC;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_bienvenida h1 {
+    text-align: center;
+    color: #122c4f;
+}
+
+.home_bienvenida{
+    margin: 20px;
+    text-align: center;
+}
+

@@ -52,7 +52,7 @@
                     <a href="#Hackaton">Hackaton</a>
                 </li>
                 <li>
-                    <a href="#">Galeria Inaguración</a>
+                    <a href="#gal_inaguracion">Galeria Inaguración</a>
                 </li>
             </ul>
         </aside>
@@ -176,8 +176,28 @@
                         </ol>
                         </p>
                     </div>
-
                 </div>
+                
+                <h2>Galería Ponencia 1</h2>
+
+                <section class="galeria">
+                    
+                    <div class="galeria_img">
+                        <img src="../public/img/ponencia1.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <img src="../public/img/ponencia1_2.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <img src="../public/img/ponencia1_3.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <video controls>
+                            <source src="../public/img/ponencia1_v.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento <code>video</code>.
+                        </video>
+                    </div>
+                </section>
             </section>
             <hr>
 
@@ -258,36 +278,58 @@
 
                     <div class="subtema_ponencia">
                         <h3>Diferencias entre ML, DL y FM</h3>
-                                <ul>
-                                    <li><strong>Machine Learning (Simple -> Simple):</strong> Problemas simples que se resuelven de forma simple.</li>
-                                    <li><strong>Deep Learning (Complejo -> Simple):</strong> Problemas complejos que se resuelven de forma simple para el usuario final.</li>
-                                    <li><strong>Foundation Model (Complejo -> Complejo):</strong> Tanto el problema como la solución son complejos.</li>
-                                </ul>
+                        <ul>
+                            <li><strong>Machine Learning (Simple -> Simple):</strong> Problemas simples que se resuelven de forma simple.</li>
+                            <li><strong>Deep Learning (Complejo -> Simple):</strong> Problemas complejos que se resuelven de forma simple para el usuario final.</li>
+                            <li><strong>Foundation Model (Complejo -> Complejo):</strong> Tanto el problema como la solución son complejos.</li>
+                        </ul>
                     </div>
 
-                     <div class="subtema_ponencia">
+                    <div class="subtema_ponencia">
                         <h3>Redes Antagónicas (GAN) </h3>
-                               <p>Mencionaron que fueron inventadas en 2010 por unos canadienses.
-                                 Son redes que "compiten" entre sí: una genera contenido falso y otra intenta detectarlo,
-                                  mejorando ambas en el proceso.</p>
+                        <p>Mencionaron que fueron inventadas en 2010 por unos canadienses.
+                            Son redes que "compiten" entre sí: una genera contenido falso y otra intenta detectarlo,
+                            mejorando ambas en el proceso.</p>
 
-                                <p>¿Para qué sirve?</p>
-                                <ul>    
-                                    <li>Generar imágenes, videos, música, texto, etc.</li>
-                                    <li>Sintesis de Datos.</li>
-                                    <li>Mejorar la calidad de imágenes y videos.</li>
-                                    <li>Aplicaciones en medicina, arte, diseño, etc.</li>
-                                </ul>
+                        <p>¿Para qué sirve?</p>
+                        <ul>
+                            <li>Generar imágenes, videos, música, texto, etc.</li>
+                            <li>Sintesis de Datos.</li>
+                            <li>Mejorar la calidad de imágenes y videos.</li>
+                            <li>Aplicaciones en medicina, arte, diseño, etc.</li>
+                        </ul>
                     </div>
 
-                     <div class="subtema_ponencia">
+                    <div class="subtema_ponencia">
                         <h3>LLM (Large Lenguage Models</h3>
-                                <p>Son los modelos de lenguaje grandes, como el que están usando ahora (ChatGPT, Claude, etc.). 
-                                    Están entrenados con enormes cantidades de texto para entender y generar lenguaje humano.</p>
+                        <p>Son los modelos de lenguaje grandes, como el que están usando ahora (ChatGPT, Claude, etc.).
+                            Están entrenados con enormes cantidades de texto para entender y generar lenguaje humano.</p>
                     </div>
+
+
+                    <h2>Galería Ponencia 2</h2>
+
+                <section class="galeria">
+                    
+                    <div class="galeria_img">
+                        <img src="../public/img/ponencia2.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <img src="../public/img/ponencia2_2.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <img src="../public/img/ponencia2_3.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <video controls>
+                            <source src="../public/img/ponencia2_v.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento <code>video</code>.
+                        </video>
+                    </div>
+                </section>
 
             </section>
-<hr>
+            <hr>
 
             <section class="ponencia" id="Hackaton">
                 <div class="titulo">
@@ -307,18 +349,18 @@
                         <h3>Desarrollo de la Hackaton de la Semana de Sistemas 2025</h3>
                         <p>
                             La hackaton de la Semana de Sistemas 2025 dio inicio alrededor de las 2:00 pm donde se definieron los grupos de trabajo y se asignó el contexto en el cual tenian que desarrollar su problematica y respectiva solución.
-                            Algunos de los grupos de trabajo ya llevaban su problematica y  su solución resuelta, por lo que durante el tiempo de preparación se dedicaron a perfeccionar detalles.
+                            Algunos de los grupos de trabajo ya llevaban su problematica y su solución resuelta, por lo que durante el tiempo de preparación se dedicaron a perfeccionar detalles.
 
                             <br>
                             Participaron 5 equipos en total
                             <br>
-                            <ul>
-                                <li>Luis y su pandilla que presentaron una problematica sobre la gestion de citas en una veterinaria.</li>
-                                <li>Los Mcnificos, que presentaron solamente la problematica sobre un sistema de gestion de reservas y asistencia.</li>
-                                <li>Web Team, que presento una aplicación de Bingo, los presentes en la hackaton participamos en una partida para ver si la aplicación funcionaba correctamente </li>
-                                <li>Negreria Boys, que solamente era Luis Galeas, presentó un sistema de citas en consola para una veterinaria.</li>
-                                <li>Y por ultimo los Franquitos, que presentaron un sistema de gestión de notas tambien en consola.</li>
-                            </ul> 
+                        <ul>
+                            <li>Luis y su pandilla que presentaron una problematica sobre la gestion de citas en una veterinaria.</li>
+                            <li>Los Mcnificos, que presentaron solamente la problematica sobre un sistema de gestion de reservas y asistencia.</li>
+                            <li>Web Team, que presento una aplicación de Bingo, los presentes en la hackaton participamos en una partida para ver si la aplicación funcionaba correctamente </li>
+                            <li>Negreria Boys, que solamente era Luis Galeas, presentó un sistema de citas en consola para una veterinaria.</li>
+                            <li>Y por ultimo los Franquitos, que presentaron un sistema de gestión de notas tambien en consola.</li>
+                        </ul>
                         </p>
                         <p>
                             A la hora de la premiación, en quinto lugar quedaron los Mcnificos, en cuarto lugar los Franquitos, en tercer lugar Luis Galeas, en segundo lugar Luis y su pandilla y los ganadores fueron los Web Team.
@@ -327,11 +369,57 @@
                         <p>Y de esa manera concluyó el primer día de la Semana de Sistemas 2025.</p>
                     </div>
                 </div>
-            </section>
 
+  <h2>Galería Hackaton</h2>
 
-
+                <section class="galeria">
+                    
+                    <div class="galeria_img">
+                        <img src="../public/img/hackaton.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <img src="../public/img/hackaton1.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <img src="../public/img/hackaton2.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <video controls>
+                            <source src="../public/img/hackatonv.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento <code>video</code>.
+                        </video>
+                    </div>
+                     <div class="galeria_img">
+                        <video controls>
+                            <source src="../public/img/hackatonv1.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento <code>video</code>.
+                        </video>
+                    </div>
+                </section>
         </section>
+        <section id="gal_inaguracion">
+
+          <h2>Galería Inaguración</h2>
+
+                <section class="galeria">
+                    
+                    <div class="galeria_img">
+                        <img src="../public/img/inaguracion.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <img src="../public/img/inaguracion1.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <img src="../public/img/inaguracion2.jpeg">
+                    </div>
+                    <div class="galeria_img">
+                        <video controls>
+                            <source src="../public/img/inaguracionv.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento <code>video</code>.
+                        </video>
+                    </div>
+                </section>
+                </section>
     </section>
 
 </body>
