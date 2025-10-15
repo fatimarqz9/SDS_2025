@@ -197,34 +197,117 @@
                         <h3>Transformación</h3>
                         <p>
                             Explicaron que estamos viviendo una transformación caracterizada por tres elementos:
-                                <ul>
-                                    <li><strong>Incertidumbre:</strong> No sabemos exactamente hacia dónde vamos</li>
-                                    <li><strong>Velocidad:</strong> Los cambios ocurren muy rápido</li>
-                                    <li><strong>Transversalidad:</strong> La IA afecta a TODAS las profesiones y áreas, no solo a la tecnología</li>
-                                </ul>
+                        <ul>
+                            <li><strong>Incertidumbre:</strong> No sabemos exactamente hacia dónde vamos</li>
+                            <li><strong>Velocidad:</strong> Los cambios ocurren muy rápido</li>
+                            <li><strong>Transversalidad:</strong> La IA afecta a TODAS las profesiones y áreas, no solo a la tecnología</li>
+                        </ul>
                         </p>
                     </div>
-                </div>
+                    <div class="subtema_ponencia">
+                        <h3>Transformación</h3>
+                        <p>
+                            Explicaron que estamos viviendo una transformación caracterizada por tres elementos:
+                        <ul>
+                            <li><strong>Incertidumbre:</strong> No sabemos exactamente hacia dónde vamos</li>
+                            <li><strong>Velocidad:</strong> Los cambios ocurren muy rápido</li>
+                            <li><strong>Transversalidad:</strong> La IA afecta a TODAS las profesiones y áreas, no solo a la tecnología</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="subtema_ponencia">
+                        <h3>¿Qué es la Inteligencia Artificial?</h3>
+                        <p>
+                            Se nos empezó definiendo la inteligencia como:
+                        <ul>
+                            <li>La capacidad de entender o comprender</li>
+                            <li>La capacidad de resolver problemas</li>
+                        </ul>
+                        </p>
+                        <p>
+                            Luego, el ponente definió la inteligencia artificial como:<br>
+                            <q>La ciencia e ingeniería de hacer máquinas inteligentes, especialmente programas de cómputo inteligentes</q>
+                        </p>
+                    </div>
+
+                    <div class="subtema_ponencia">
+                        <h3>Clasificación de la IA según su capacidad</h3>
+                        <p>
+                            Mencionaron dos tipos principales de IA según su capacidad:
+                        <ul>
+                            <li><strong>IA débil o estrecha:</strong> Diseñada para realizar tareas específicas, como asistentes virtuales o sistemas de recomendación.</li>
+                            <li><strong>IA fuerte o genral:</strong> Una IA que podría hacer cualquier tarea intelectual que un humano puede hacer</li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div class="subtema_ponencia">
+                        <h3>Machine Learning y sus tipos de aprendizaje</h3>
+                        <p>
+                            Se nos explicó que el Machine Learning es una rama de la IA que permite a las máquinas aprender de los datos sin ser explícitamente programadas.
+                            Existen cuatro tipos principales de aprendizaje en Machine Learning:
+                        <ul>
+                            <li><strong>Aprendizaje supervisado:</strong> Le das ejemplos con respuestas correctas y aprende de ellos</li>
+                            <li><strong>Aprendizaje no supervisado:</strong> Le das datos sin etiquetar y busca patrones por sí mismo</li>
+                            <li><strong>Aprendizaje semi-supervisado:</strong> Combina ambos métodos, usando algunos datos etiquetados y otros sin etiquetar</li>
+                            <li><strong>Aprendizaje por refuerzo:</strong> Aprende mediante ensayo y error, recibiendo recompensas o castigos</li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div class="subtema_ponencia">
+                        <h3>Diferencias entre ML, DL y FM</h3>
+                                <ul>
+                                    <li><strong>Machine Learning (Simple -> Simple):</strong> Problemas simples que se resuelven de forma simple.</li>
+                                    <li><strong>Deep Learning (Complejo -> Simple):</strong> Problemas complejos que se resuelven de forma simple para el usuario final.</li>
+                                    <li><strong>Foundation Model (Complejo -> Complejo):</strong> Tanto el problema como la solución son complejos.</li>
+                                </ul>
+                    </div>
+
+                     <div class="subtema_ponencia">
+                        <h3>Redes Antagónicas (GAN) </h3>
+                               <p>Mencionaron que fueron inventadas en 2010 por unos canadienses.
+                                 Son redes que "compiten" entre sí: una genera contenido falso y otra intenta detectarlo,
+                                  mejorando ambas en el proceso.</p>
+
+                                <p>¿Para qué sirve?</p>
+                                <ul>    
+                                    <li>Generar imágenes, videos, música, texto, etc.</li>
+                                    <li>Sintesis de Datos.</li>
+                                    <li>Mejorar la calidad de imágenes y videos.</li>
+                                    <li>Aplicaciones en medicina, arte, diseño, etc.</li>
+                                </ul>
+                    </div>
+
+                     <div class="subtema_ponencia">
+                        <h3>LLM (Large Lenguage Models</h3>
+                                <p>Son los modelos de lenguaje grandes, como el que están usando ahora (ChatGPT, Claude, etc.). 
+                                    Están entrenados con enormes cantidades de texto para entender y generar lenguaje humano.</p>
+                    </div>
+
             </section>
 
 
             <section class="ponencia" id="Hackaton">
                 <div class="titulo">
-                    <h1>Ponencia 2: "Inteligencia Artificial Generativa - de la idea a la acción"</h1>
-                    <h2>Ponente: MSc. Luis Contreras</h2>
+                    <h1>Hackaton</h1>
                 </div>
                 <hr>
                 <div class="contenido_ponencia">
                     <div class="subtema_ponencia">
-                        <h3>Evolución del dinero</h3>
+                        <h3>¿Qué es una Hackaton?</h3>
                         <p>
-                            La ponencia comenzó hablando sobre cómo ha evolucionado la economía, desde el trueque hasta el dinero digital,
-                            y cómo el Bitcoin ha surgido como una nueva forma de manejar y transferir dinero sin necesidad de bancos ni la intervención del gobierno.
+                            Una hackaton es un evento donde personas con diferentes habilidades (programadores, diseñadores, etc.)
+                            se reúnen para colaborar intensamente en proyectos tecnológicos durante un período corto de tiempo.
+                            El objetivo es desarrollar soluciones innovadoras a problemas específicos, aprender nuevas tecnologías y fomentar el trabajo en equipo.
                         </p>
                     </div>
                     <div class="subtema_ponencia">
-                        <h3>Funciones del dinero</h3>
-                        <p></p>
+                        <h3>Desarrollo de la Hackaton de la Semana de Sistemas 2025</h3>
+                        <p>
+                            La hackaton de la Semana de Sistemas 2025 dio inició alrededor de las 2:00 pm donde se definieron los grupos de trabajo y se asignó el contexto en el cual tenian que desarrollar su problematica y respectiva solución.
+                            Algunos de los grupos de trabajo ya llevaban su probematica y  su solución resulta, por lo que
+                        </p>
                     </div>
                 </div>
             </section>

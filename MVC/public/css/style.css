@@ -106,7 +106,7 @@ body {
 .ponencia {
     background-color: #D1E8FC;
     width: 100%;
-    margin: 0;
+
 }
 
 .titulo {
@@ -125,7 +125,9 @@ body {
     color: #122c4f;
     font-size: 20px;
 }
-.subtema_ponencia p {
+.subtema_ponencia p,
+.subtema_ponencia ul,
+.subtema_ponencia ol {
     text-align: justify;
     font-size: 18px;
     line-height: 1.6;
@@ -186,6 +188,7 @@ body {
     flex-direction: row;
     background-color: #FBF3F9;
     border: 2px solid #122c4f;
+    gap: 10px;
 }
 
 
@@ -193,13 +196,19 @@ body {
 .bitcoin{
     width: 50%;
     border-left: #122c4f 2px solid;
+    padding-right: 15px;
 }
 .bitcoin h4, 
 .fiat h4
 {
     text-align: center;
+    padding-right: 20px;
 }
 .fiat{
     width: 50%;
 
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
