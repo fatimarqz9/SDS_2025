@@ -15,4 +15,8 @@ class HomeController extends controller{
         return $this->view("DayOne_View", ["title"=> "Día 1 SDS25"]);
     }
 
+    public function dayTwo(){
+        return $this->view("DayTwo_View", ["title"=>"Día 2 SDS25"]);
+    }
+
 }
