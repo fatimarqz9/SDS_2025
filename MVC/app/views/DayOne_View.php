@@ -22,8 +22,8 @@
         </ul>
     </nav>
 
-    <section class="dia1_presentation">
-        <div class="dia1_intro">
+    <section class="dia_presentation">
+        <div class="dia_intro">
             <h1>Día 1: Inaguración, Ponencias y Hackaton</h1>
             <p>La Semana de Sistemas inició con una ceremonia de inaguración llena de alegría, que marcó el inicio de esta experiencia de aprendizaje tecnológico.
                 Los participantes pudieron sumergirse de inmediato en temas de gran impacto y relevancia global a través de las primeras ponencias del evento. </p>
@@ -36,7 +36,9 @@
             <p><strong>Hackaton</strong><br>
                 Actividad en la que los estudiantes presentaron una problemática junto con su respectiva solución, aplicando los conocimientos adquiridos a lo largo de sus años universitarios.</p>
         </div>
-        <div class="dia1_img"></div>
+        <div class="dia_img">
+            <img src="../public/img/DIA1_P.png" alt="">
+        </div>
     </section>
 
     <section class="contenido">
@@ -57,23 +59,23 @@
             </ul>
         </aside>
 
-        <section class="section_ponencias">
+        <section class="section_actividad">
 
-            <section class="ponencia" id="ABC_Bitcoin">
+            <section class="actividad" id="ABC_Bitcoin">
                 <div class="titulo">
                     <h1>Ponencia 1: "ABC del Bitcoin"</h1>
                     <h2>Ponente: MSc. Luis Contreras</h2>
                 </div>
                 <hr>
-                <div class="contenido_ponencia">
-                    <div class="subtema_ponencia">
+                <div class="contenido_actividad">
+                    <div class="subtema_actividad">
                         <h3>Evolución del dinero</h3>
                         <p>
                             La ponencia comenzó hablando sobre cómo ha evolucionado la economía, desde el trueque hasta el dinero digital,
                             y cómo el Bitcoin ha surgido como una nueva forma de manejar y transferir dinero sin necesidad de bancos ni la intervención del gobierno.
                         </p>
                     </div>
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Funciones del dinero</h3>
                         <p>
                             El ponente nos explicó sobre las tres funciones básicas del dinero:
@@ -84,7 +86,7 @@
                         </ul>
                         </p>
                     </div>
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Consecuencias del dinero fiducario</h3>
                         <p>
                             Se nos comentó que cuando hay inflación, las empresas podian reaccionar de varias formas:
@@ -95,7 +97,7 @@
                         </p>
                     </div>
 
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>¿Qué es bitcoin?</h3>
                         <p>
                             El ponente definió el Bitcoin como una forma de dinero digital descentralizado que
@@ -107,7 +109,7 @@
                         </p>
                     </div>
 
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Comparación del Sistema Fiat vs Bitcoin</h3>
                         <div class="comparacion">
                             <div class="fiat">
@@ -156,7 +158,7 @@
                         </div>
                     </div>
 
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Tipos de Wallets</h3>
                         <p>
                         <ol>
@@ -201,20 +203,20 @@
             </section>
             <hr>
 
-            <section class="ponencia" id="IA_Generativa">
+            <section class="actividad" id="IA_Generativa">
                 <div class="titulo">
                     <h1>Ponencia 2: "Inteligencia Artificial Generativa - de la idea a la acción"</h1>
                     <h2>Ponente: MSc. Rodrigo Pineda</h2>
                 </div>
                 <hr>
-                <div class="contenido_ponencia">
-                    <div class="subtema_ponencia">
+                <div class="contenido_actividad">
+                    <div class="subtema_actividad">
                         <p>
                             La ponencia inició con una cita muy potente de Neil Postman: <i>"Las tecnologías no son una amenaza en sí mismas, la verdadera amenaza es aceptarlas de manera pasiva y desinformada."</i></p>
                         <p> Con esto plantearon la pregunta clave: <br><strong> ¿Es necesaria una capacitación para usar inteligencia artificial? </strong> <br>La respuesta implícita es que sí, porque no podemos aceptarla pasivamente sin entender cómo funciona.
                         </p>
                     </div>
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Transformación</h3>
                         <p>
                             Explicaron que estamos viviendo una transformación caracterizada por tres elementos:
@@ -225,7 +227,7 @@
                         </ul>
                         </p>
                     </div>
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Transformación</h3>
                         <p>
                             Explicaron que estamos viviendo una transformación caracterizada por tres elementos:
@@ -236,7 +238,7 @@
                         </ul>
                         </p>
                     </div>
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>¿Qué es la Inteligencia Artificial?</h3>
                         <p>
                             Se nos empezó definiendo la inteligencia como:
@@ -251,7 +253,7 @@
                         </p>
                     </div>
 
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Clasificación de la IA según su capacidad</h3>
                         <p>
                             Mencionaron dos tipos principales de IA según su capacidad:
@@ -262,7 +264,7 @@
                         </p>
                     </div>
 
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Machine Learning y sus tipos de aprendizaje</h3>
                         <p>
                             Se nos explicó que el Machine Learning es una rama de la IA que permite a las máquinas aprender de los datos sin ser explícitamente programadas.
@@ -276,7 +278,7 @@
                         </p>
                     </div>
 
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Diferencias entre ML, DL y FM</h3>
                         <ul>
                             <li><strong>Machine Learning (Simple -> Simple):</strong> Problemas simples que se resuelven de forma simple.</li>
@@ -285,7 +287,7 @@
                         </ul>
                     </div>
 
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Redes Antagónicas (GAN) </h3>
                         <p>Mencionaron que fueron inventadas en 2010 por unos canadienses.
                             Son redes que "compiten" entre sí: una genera contenido falso y otra intenta detectarlo,
@@ -300,7 +302,7 @@
                         </ul>
                     </div>
 
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>LLM (Large Lenguage Models</h3>
                         <p>Son los modelos de lenguaje grandes, como el que están usando ahora (ChatGPT, Claude, etc.).
                             Están entrenados con enormes cantidades de texto para entender y generar lenguaje humano.</p>
@@ -331,13 +333,13 @@
             </section>
             <hr>
 
-            <section class="ponencia" id="Hackaton">
+            <section class="actividad" id="Hackaton">
                 <div class="titulo">
                     <h1>Hackaton</h1>
                 </div>
                 <hr>
-                <div class="contenido_ponencia">
-                    <div class="subtema_ponencia">
+                <div class="contenido_actividad">
+                    <div class="subtema_actividad">
                         <h3>¿Qué es una Hackaton?</h3>
                         <p>
                             Una hackaton es un evento donde personas con diferentes habilidades (programadores, diseñadores, etc.)
@@ -345,7 +347,7 @@
                             El objetivo es desarrollar soluciones innovadoras a problemas específicos, aprender nuevas tecnologías y fomentar el trabajo en equipo.
                         </p>
                     </div>
-                    <div class="subtema_ponencia">
+                    <div class="subtema_actividad">
                         <h3>Desarrollo de la Hackaton de la Semana de Sistemas 2025</h3>
                         <p>
                             La hackaton de la Semana de Sistemas 2025 dio inicio alrededor de las 2:00 pm donde se definieron los grupos de trabajo y se asignó el contexto en el cual tenian que desarrollar su problematica y respectiva solución.

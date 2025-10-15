@@ -71,7 +71,7 @@ body {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.dia1_presentation {
+.dia_presentation {
     background-color: #122c4f;
     height: 100vh;
     width: 100%;
@@ -81,30 +81,30 @@ body {
     flex-direction: row;
 }
 
-.dia1_intro {
+.dia_intro {
     color: white;
     font-size: 20px;
     width: 65%;
     padding-left: 40px;
 }
 
-.dia1_intro h1,
-.dia1_intro strong {
+.dia_intro h1,
+.dia_intro strong {
     color: #D1E8FC;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.dia1_img {
-    background-image: url(../img/DIA1_P.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+.dia_img {
+   
     width: 35%;
     padding: 40px;
 }
+.dia_img img {
+    width: 600px;
+    height: auto;
+}
 
-.ponencia {
+.actividad {
     background-color: #D1E8FC;
     width: 100%;
 
@@ -116,20 +116,20 @@ body {
     padding: 20px;
 }
 
-.contenido_ponencia {
+.contenido_actividad {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
 }
 
-.subtema_ponencia h3 {
+.subtema_actividad h3 {
     color: #122c4f;
     font-size: 20px;
 }
 
-.subtema_ponencia p,
-.subtema_ponencia ul,
-.subtema_ponencia ol {
+.subtema_actividad p,
+.subtema_actividad ul,
+.subtema_actividad ol {
     text-align: justify;
     font-size: 18px;
     line-height: 1.6;
@@ -178,7 +178,7 @@ body {
     background-color: rgba(91, 136, 178, 0.3);
 }
 
-.section_ponencias {
+.section_actividad {
     background-color: #D1E8FC;
     flex: 1;
 
