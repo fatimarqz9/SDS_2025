@@ -8,17 +8,17 @@
 </head>
 
 <body>
-    <nav class="nav">
+     <nav class="nav">
         <div class="logo">SDS<span>25</span></div>
         <ul>
             <li><a href="../public">Home</a></li>
             <li><a href="dia1">Día 1</a></li>
             <li><a href="dia2">Día 2</a></li>
-            <li><a href="#">Día 3</a></li>
-            <li><a href="#">Día 4</a></li>
-            <li><a href="#">Día 5</a></li>
-            <li><a href="#">Perfil</a></li>
-            <li><a href="#">Registrar visita</a></li>
+            <li><a href="dia3">Día 3</a></li>
+            <li><a href="dia4">Día 4</a></li>
+            <li><a href="dia5">Día 5</a></li>
+            <li><a href="perfil">Perfil</a></li>
+            <li><a href="registrarVisita">Registrar visita</a></li>
         </ul>
     </nav>
     <section class="landing">
@@ -47,7 +47,7 @@
                         Ponecia 2.<br>
                         Hackaton. <br>
                     </p>
-                    <button class="card-button">Ver más</button>
+                    <a href="dia1" class="card-button">Ver más</a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
                         Taller 3. <br>
                         
                     </p>
-                    <button class="card-button">Ver más</button>
+                    <a href="dia2" class="card-button">Ver más</a>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@
                        Torneo de Futbol.<br>
                        (Cancelado por lluvias)
                     </p>
-                    <button class="card-button">Ver más</button>
+                    <a href="dia3" class="card-button">Ver más</a>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@
                         Feria de logros.<br>
                         Comelona de Pupusas.
                     </p>
-                    <button class="card-button">Ver más</button>
+                    <a href="dia4" class="card-button">Ver más</a>
                 </div>
             </div>
 
@@ -98,7 +98,7 @@
                         Torneo de Videojuegos. <br>
                         Fiesta. <br>
                     </p>
-                    <button class="card-button">Ver más</button>
+                    <a href="dia5" class="card-button">Ver más</a>
                 </div>
             </div>
         </section>
