@@ -162,23 +162,23 @@
                     </div>
 
                     <section class="galeria">
-                    
-                    <div class="galeria_img">
-                        <img src="../public/img/taller1.png">
-                    </div>
-                    <div class="galeria_img">
-                        <img src="../public/img/taller1_2.png">
-                    </div>
-                    <div class="galeria_img">
-                        <img src="../public/img/Taller1_3.png">
-                    </div>
-                    <div class="galeria_img">
-                        <video controls>
-                            <source src="../public/img/Taller1_v.mp4" type="video/mp4">
-                            Tu navegador no soporta el elemento <code>video</code>.
-                        </video>
-                    </div>
-                </section>
+
+                        <div class="galeria_img">
+                            <img src="../public/img/taller1.png">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/taller1_2.png">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/Taller1_3.png">
+                        </div>
+                        <div class="galeria_img">
+                            <video controls>
+                                <source src="../public/img/Taller1_v.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento <code>video</code>.
+                            </video>
+                        </div>
+                    </section>
 
                 </div>
 
@@ -220,22 +220,135 @@
                         <div class="contenido_actividad">
                             <div class="subtema_actividad">
                                 <h3>¿Qué es la IA Multimodal?</h3>
-                                <p>
-                                    La ponencia comenzó hablando sobre cómo ha evolucionado la economía, desde el trueque hasta el dinero digital,
-                                    y cómo el Bitcoin ha surgido como una nueva forma de manejar y transferir dinero sin necesidad de bancos ni la intervención del gobierno.
+                                <p>El término “multimodal” hace referencia a la capacidad de una inteligencia
+                                    artificial para procesar y comprender información proveniente de múltiples fuentes o modos de entrada al mismo tiempo.</p>
+
+                                <p>En lugar de limitarse a un solo tipo de dato, como el texto o las imágenes, una IA multimodal integra cuatro tipos principales de información:</p>
+
+                                <ul>
+                                    <li>Texto: lenguaje natural, instrucciones, descripciones.</li>
+                                    <li>Imagen: reconocimiento visual, análisis de objetos o escenas.</li>
+                                    <li>Audio: voz, música o sonidos ambientales.</li>
+                                    <li>Vídeo: combinación de imagen y sonido en movimiento.
+                                    </li>
+                                </ul>
+
+                                <p>Gracias a esta integración, los modelos multimodales pueden comprender contextos complejos, realizar tareas más naturales y generar resultados más ricos y precisos.
                                 </p>
                             </div>
                             <div class="subtema_actividad">
-                                <h3>Funciones del dinero</h3>
+                                <h3>Capacidades Multimodales</h3>
                                 <p>
-                                    El ponente nos explicó sobre las tres funciones básicas del dinero:
+                                    La nueva generación de modelos de inteligencia artificial está marcada por la integración de múltiples tipos de datos —texto, imagen, audio y vídeo—, lo que les permite comprender contextos complejos y generar respuestas más naturales, creativas y precisas.
+                                    Entre los modelos más destacados en este avance se encuentran GPT-5, Gemini 1.5 y Claude 3, desarrollados respectivamente por OpenAI, Google DeepMind y Anthropic.
                                 <ul>
-                                    <li><strong>Medio de intercambio:</strong> el dinero facilita las transacciones al actuar como un intermediario aceptado por todos.</li>
-                                    <li><strong>Depósito de valor:</strong> el dinero permite almacenar riqueza para su uso futuro, manteniendo su valor a lo largo del tiempo.</li>
-                                    <li><strong>Unidad de cuenta:</strong> el dinero proporciona una medida común para valorar bienes y servicios, facilitando la comparación de precios.</li>
+                                    <li><strong>GPT-5:</strong> Un modelo de lenguaje altamente potente, diseñado para ofrecer comprensión avanzada del contexto y generación de texto sofisticada.
+                                        Se espera que combine razonamiento complejo, capacidades multimodales y un mejor manejo de instrucciones largas y detalladas.</li>
+                                    <li><strong>Gemini 1.5:</strong> Desarrollado por Google DeepMind, Gemini 1.5 se posiciona como un modelo pionero en el procesamiento conjunto de texto e imagen, con un enfoque especial en la coherencia entre ambas modalidades.
+                                        Su objetivo es ofrecer resultados más creativos, consistentes y útiles en tareas visuales y lingüísticas.</li>
+                                    <li><strong>Claude 3:</strong> Creado por Anthropic, Claude 3 se presenta como un modelo versátil y orientado a interacciones ricas y dinámicas, centrado en la seguridad,
+                                        el contexto conversacional y la comprensión de instrucciones complejas.</li>
                                 </ul>
                                 </p>
+                                <p>Estos modelos representan la vanguardia de la IA multimodal, donde el objetivo ya no es solo procesar información, sino entenderla, relacionarla y crear a partir de ella.
+                                    Cada avance en esta área acerca más la inteligencia artificial a una comprensión más humana y contextual del mundo que la rodea.</p>
                             </div>
+
+                            <div class="subtema_actividad">
+                                <h3>Aplicaciones Reales</h3>
+                                <p>
+                                    La inteligencia artificial multimodal no solo es un avance tecnológico; también tiene aplicaciones concretas que transforman industrias enteras.
+                                    Entre las principales se destacan diseño gráfico, educación y salud, donde la combinación de texto, imagen,
+                                    audio y vídeo potencia la creatividad, el aprendizaje y la atención médica.
+                                <ul>
+                                    <li><strong>Diseño Gráfico:</strong> La IA permite la generación automatizada de contenido visual, optimizando proyectos creativos y publicitarios de manera rápida y eficiente.</li>
+                                    <li><strong>Educación:</strong> La IA multimodal facilita un aprendizaje más accesible y personalizado, ofreciendo contenido visual interactivo y dinámico adaptado a las necesidades de cada estudiante.</li>
+                                    <li><strong>Salud:</strong> En el ámbito médico, la IA multimodal permite analizar imágenes médicas con mayor precisión, apoyando diagnósticos y tratamientos más efectivos.</li>
+                                </ul>
+                                </p>
+                                <p>Estos modelos representan la vanguardia de la IA multimodal, donde el objetivo ya no es solo procesar información, sino entenderla, relacionarla y crear a partir de ella.
+                                    Cada avance en esta área acerca más la inteligencia artificial a una comprensión más humana y contextual del mundo que la rodea.</p>
+                            </div>
+
+                            <div class="subtema_actividad">
+                                <h3>Claves Tecnicas de la IA Multimodal</h3>
+                                <p>
+                                    A diferencia de los sistemas tradicionales, que procesan cada tipo de información por separado, la IA multimodal fusiona múltiples modalidades en un único flujo de procesamiento,
+                                    lo que mejora la comprensión, la coherencia y la precisión de los resultados.
+                                <ul>
+                                    <li><strong>Entrada (Input):</strong> El modelo recibe múltiples tipos de datos simultáneamente, lo que permite que la información textual, visual y auditiva se interprete en conjunto.</li>
+                                    <li><strong>Procesamiento Unificado:</strong> En lugar de utilizar modelos separados para cada modalidad, la IA multimodal utiliza un único modelo integrado, donde todas las entradas se procesan de forma conjunta a nivel de la red neuronal.</li>
+                                    <li><strong>Salida (Output):</strong> El resultado es contenido coherente y preciso, donde las distintas modalidades se complementan y mantienen consistencia entre sí.</li>
+                                </ul>
+                                </p>
+                                <p>La clave técnica de la IA multimodal está en la integración de las entradas, el procesamiento unificado y la generación de salidas coherentes,
+                                    lo que la hace más potente y flexible que los modelos tradicionales centrados en una sola modalidad.</p>
+                            </div>
+
+                            <div class="subtema_actividad">
+                                <h3>Ingenieria de Promps</h3>
+                                <p>
+                                    La ingeniería de prompts consiste en diseñar cuidadosamente las instrucciones que se le dan a un modelo de IA, de manera que las respuestas o contenidos generados sean precisos, coherentes y adaptados a nuestras necesidades.
+                                    Esto es especialmente importante en IA multimodal, donde la interacción puede involucrar texto, imagen, audio y vídeo simultáneamente.
+                                <ul>
+                                    <li><strong>Entrada (Input):</strong> El modelo recibe múltiples tipos de datos simultáneamente, lo que permite que la información textual, visual y auditiva se interprete en conjunto.</li>
+                                    <li><strong>Procesamiento Unificado:</strong> En lugar de utilizar modelos separados para cada modalidad, la IA multimodal utiliza un único modelo integrado, donde todas las entradas se procesan de forma conjunta a nivel de la red neuronal.</li>
+                                    <li><strong>Salida (Output):</strong> El resultado es contenido coherente y preciso, donde las distintas modalidades se complementan y mantienen consistencia entre sí.</li>
+                                </ul>
+                                </p>
+                                <p>La clave técnica de la IA multimodal está en la integración de las entradas, el procesamiento unificado y la generación de salidas coherentes,
+                                    lo que la hace más potente y flexible que los modelos tradicionales centrados en una sola modalidad.</p>
+                            </div>
+
+                            <div class="subtema_actividad">
+                                <h3>n8n - Automatización sin código</h3>
+                                <p>
+                                    Durante el taller se mostró cómo integrar n8n con Telegram para crear bots automatizados capaces de responder mensajes de forma inteligente, utilizando IA como GPT. Esto permite diseñar flujos de trabajo que
+                                    reciben, procesan y responden mensajes sin intervención manual, optimizando la comunicación en canales digitales.
+                                </p>
+                                <p>BotFather es la herramienta oficial de Telegram para crear y gestionar bots. En el workflow de n8n se utilizó
+                                    para generar el bot que recibiría los mensajes y enviaría las respuestas automatizadas.</p>
+                                <p>Entrada – Telegram Trigger
+                                    <ul>
+                                        <li> Concepto: El bot recibe mensajes enviados en Telegram.</li>
+                                        <li>Evento: Cada vez que un usuario escribe un mensaje, se dispara el flujo de trabajo.</li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    Procesamiento – AI Assistant
+                                    <ul>
+                                        <li>Concepto: Los mensajes se procesan mediante inteligencia artificial.</li>
+                                        <li>Acción: El asistente de IA genera una respuesta contextualizada, utilizando modelos como GPT.</li>
+                                        <li>Resultado: Mensajes coherentes, precisos y adaptados al contexto del usuario.</li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    Salida – Respuesta Automática
+                                    <ul>
+                                        <li>Concepto: La respuesta generada por la IA se envía al usuario automáticamente.</li>
+                                        <li> Medio: Mensaje devuelto a través de Telegram, completando el ciclo de comunicación.</li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                            
+                            <section class="galeria">
+
+                        <div class="galeria_img">
+                            <img src="../public/img/Taller3_2.png">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/Taller31.png">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/Taller3_3.png">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/Taller3_4.png">
+                        </div>
+                    </section>
+
+
                         </div>
 
 

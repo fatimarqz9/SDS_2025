@@ -96,17 +96,18 @@ body {
 }
 
 .dia_img {
-   
+
     width: 30%;
     padding: 30px;
 }
+
 .dia_img img {
     width: 500px;
     height: auto;
 }
 
 .actividad {
-    background-color: #D1E8FC;
+    background-color: #F6FAFD;
     width: 100%;
 
 }
@@ -180,7 +181,7 @@ body {
 }
 
 .section_actividad {
-    background-color: #D1E8FC;
+    background-color: #F6FAFD;
     flex: 1;
 
 }
@@ -190,7 +191,7 @@ body {
     justify-content: space-around;
     margin-top: 20px;
     flex-direction: row;
-    background-color: #FBF3F9;
+    background-color: #D1E8FC;
     border: 2px solid #122c4f;
     gap: 10px;
 }
@@ -224,7 +225,7 @@ html {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
     margin-bottom: 30px;
-    padding:10px;
+    padding: 10px;
 }
 
 .galeria_img {
@@ -252,12 +253,13 @@ html {
 }
 
 .contenido-home {
-    background-color: #D1E8FC;
+    background-color: #F6FAFD;
     width: 100%;
     padding: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .home_bienvenida h1 {
@@ -265,8 +267,73 @@ html {
     color: #122c4f;
 }
 
-.home_bienvenida{
+.home_bienvenida {
     margin: 20px;
     text-align: center;
 }
 
+.card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #122c4f;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.card-description {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+.card-button {
+    background: #122c4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card-button:hover {
+    opacity: 0.9;
+}
+
+.agenda {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}

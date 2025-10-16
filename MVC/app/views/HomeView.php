@@ -29,24 +29,82 @@
 
     <section class="contenido-home">
         <div class="home_bienvenida">
-             <h1>¡Bienvenido a la Semana de Sistemas 2025!</h1>
-        <p>
-            La Facultad Multidisciplinaria Oriental se convierte en el punto de encuentro donde estudiantes, docentes y expertos se reúnen
-             para profundizar en el extenso tema del Bitcoin y aprender a hacer un uso eficiente y responsable de la Inteligencia Artificial.
-        </p>
-        <p>En este blog se detallan las diferentes actividades llevadas a cabo del 13 al 17 de octubre de 2025: interesantes ponencias, talleres prácticos, el hackathon y actividades recreativas.</p>
+            <h1>¡Bienvenido a la Semana de Sistemas 2025!</h1>
+            <p>
+                La Facultad Multidisciplinaria Oriental se convierte en el punto de encuentro donde estudiantes, docentes y expertos se reúnen
+                para profundizar en el extenso tema del Bitcoin y aprender a hacer un uso eficiente y responsable de la Inteligencia Artificial.
+            </p>
+            <p>En este blog se detallan las diferentes actividades llevadas a cabo del 13 al 17 de octubre de 2025: interesantes ponencias, talleres prácticos, el hackathon y actividades recreativas.</p>
         </div>
         <section class="agenda">
-
-            <div class="agenda_dia">
-                
+            <div class="card">
+                <img src="../public/img/Bitcoin-7.png" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Lunes</h2>
+                    <p class="card-description">
+                       Bienvenida <br>
+                        Ponecia 1.<br>
+                        Ponecia 2.<br>
+                        Hackaton. <br>
+                    </p>
+                    <button class="card-button">Ver más</button>
+                </div>
             </div>
 
+            <div class="card">
+                <img src="../public/img/inteligencia-artificial_0.jpg" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Martes</h2>
+                    <p class="card-description">
+                        Taller 1. <br>
+                        Taller 2. <br>
+                        Taller 3. <br>
+                        
+                    </p>
+                    <button class="card-button">Ver más</button>
+                </div>
+            </div>
 
+            <div class="card">
+                <img src="../public/img/futbol.jpg" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Miercoles</h2>
+                    <p class="card-description">
+                       Torneo de Futbol.<br>
+                       (Cancelado por lluvias)
+                    </p>
+                    <button class="card-button">Ver más</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../public/img/working.png" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Jueves</h2>
+                    <p class="card-description">
+                        Feria de logros.<br>
+                        Comelona de Pupusas.
+                    </p>
+                    <button class="card-button">Ver más</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../public/img/game.jpg" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Viernes</h2>
+                    <p class="card-description">
+                        Bingo.<br>
+                        Torneo de Videojuegos. <br>
+                        Fiesta. <br>
+                    </p>
+                    <button class="card-button">Ver más</button>
+                </div>
+            </div>
         </section>
     </section>
 
-    
+
 
 </body>
 
