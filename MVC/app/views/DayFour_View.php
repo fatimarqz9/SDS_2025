@@ -263,8 +263,11 @@
                     <div class="contenido_actividad">
                         <div class="subtema_actividad">
                             <p>
-                                La ponencia inició con una cita muy potente de Neil Postman: <i>"Las tecnologías no son una amenaza en sí mismas, la verdadera amenaza es aceptarlas de manera pasiva y desinformada."</i></p>
-                            <p> Con esto plantearon la pregunta clave: <br><strong> ¿Es necesaria una capacitación para usar inteligencia artificial? </strong> <br>La respuesta implícita es que sí, porque no podemos aceptarla pasivamente sin entender cómo funciona.
+                               Y finalmente llegó la Comelona de Pupusas, donde 11 participantes se enfrentaron entre sí en un interesante reto: averiguar quien podía comer la mayor cantidad de pupusas en 15 minutos.
+                               Los participantes iniciaron con 5 pupusas cada uno y al terminarlas la cuenta subía de 1 en 1, mientras los demás presentes los animaban y observaban expectantes por saber quien sería el primer lugar.
+                            </p>
+                            <p>Luego de 15 minutos, el momento de anunciar al primer y segundo lugar llegó, con 13 pupusas el segundo lugar se lo llevó Manuel.
+                                Y el primer lugar con 16 pupusas se lo ganó el Ing. Guandique.
                             </p>
                         </div>
                     </div>
