@@ -389,4 +389,9 @@ main {
     background-color: #abc5de;
 }
 
-
+.imagen_T {
+  width: 800px;
+  height: auto;      
+  border-radius: 10px; 
+  border: 2px solid #ddd; 
+}

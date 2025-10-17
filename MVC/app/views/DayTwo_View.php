@@ -200,14 +200,64 @@
                             <p><strong>¿Por qué es útil?</strong></p>
                             <p>Normalmente construir un panel administrativo toma mucho tiempo y código. Filament lo simplifica: es fácil de usar y muy personalizable, así que en cuestión de minutos se puede tener funcionando un sistema completo.</p>
                             <p><strong>Caracteristicas principales</strong></p>
-                            <p><ul>
+                            <p>
+                            <ul>
                                 <li><strong>Interfaz moderna:</strong> Usa Tailwind CSS para verse bien y moderno</li>
                                 <li><strong>CRUDs automáticos: </strong> Genera automáticamente toda la lógica para crear, editar y eliminar datos</li>
                                 <li><strong>Panel listo para usar: </strong>No se tiene que partir de cero</li>
-                                <li><strong>Muy personalizable:</strong>  Se puede adaptar a lo que se necesite con plugins y configuraciones</li>
+                                <li><strong>Muy personalizable:</strong> Se puede adaptar a lo que se necesite con plugins y configuraciones</li>
                                 <li><strong>Soporte para formularios, tablas, relaciones:</strong> Maneja datos complejos sin problema</li>
                                 <li><strong>Roles y permisos: </strong>Controla quién puede hacer qué</li>
-                            </ul></p>
+                            </ul>
+                            </p>
+
+
+
+                            <h3>Practica con Filament + Laravel.</h3>
+                            <p><strong>Login: </strong>Pantalla de autenticación simple y limpia para acceder al panel.</p>
+                            <img src="../public/img/taller2_login.jpeg" alt="" class="imagen_T">
+
+                            <p><strong>Dashboard: </strong>Panel principal con bienvenida, opción de cerrar sesión y links a documentación y GitHub.</p>
+                            <img src="../public/img/taller2_dashboard.jpeg" alt="" class="imagen_T">
+
+                            <p><strong>Gestión de Roles: </strong>Tabla que lista los roles con columnas de nombre, guard name, permisos y fecha de actualización. 
+                            Botones para editar o eliminar.</p>
+                            <img src="../public/img/taller2_roles.jpeg" alt="" class="imagen_T">
+
+                            <p><strong>Crear Usuario: </strong>Formulario para agregar nuevos usuarios con campos de nombre, email, rol, email verificado y contraseña. 
+                            Filament genera todo automáticamente.</p>
+                            <img src="../public/img/taller2_crearUsuario.jpeg" alt="" class="imagen_T">
+
+                            <p><strong>Lista de Usuarios: </strong>Tabla con usuarios registrados mostrando nombre y email, con opciones para ver o editar.</p>
+                            <img src="../public/img/taller2_usuarios.jpeg" alt="" class="imagen_T">
+
+                            <p><strong>Gestión de Tallas: </strong>Creación de tallas con campos para talla, producto, color y cantidad. Muestra cómo Filament maneja relaciones (conecta con productos).</p>
+                            <img src="../public/img/taller2_crearTallas1.jpeg" alt="" class="imagen_T">
+                            <img src="../public/img/taller2_crearTallas2.jpeg" alt="" class="imagen_T">
+
+                            <p><strong>Productos: </strong>Sistema CRUD completo para productos incluyendo nombre, descripción, precio, imagen, y relación con tallas.</p>
+                            <section class="galeria">
+
+                        <div class="galeria_img">
+                            <img src="../public/img/taller2_crearProducto.jpeg">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/taller2_crearProducto1.jpeg">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/Taller2_crearProducto2.jpeg">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/Taller2_crearProducto3.jpeg">
+                        </div>
+                        <div class="galeria_img">
+                            <img src="../public/img/Taller2_productos.jpeg">
+                        </div>
+                        
+                    </section>
+
+                     <p><strong>Estructura de Archivos: </strong> VS Code mostrando la estructura del proyecto Laravel con Filament instalado.</p>
+                            <img src="../public/img/taller2_estructura.jpeg" alt="" class="imagen_T">
                         </div>
                     </div>
 
