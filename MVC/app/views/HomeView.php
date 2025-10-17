@@ -23,6 +23,7 @@
     </nav>
     <section class="landing">
         <div class="landing-content">
+            <h1>SEMANA DE SISTEMAS 2025</h1>
             <h1>Conectando el futuro: IA, Blockchain y las tecnologías que transforman el mundo</h1>
         </div>
     </section>
