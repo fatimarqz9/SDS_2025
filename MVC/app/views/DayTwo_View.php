@@ -8,7 +8,7 @@
 </head>
 
 <body>
-   <nav class="nav">
+    <nav class="nav">
         <div class="logo">SDS<span>25</span></div>
         <ul>
             <li><a href="../public">Home</a></li>
@@ -192,22 +192,22 @@
                     <hr>
                     <div class="contenido_actividad">
                         <div class="subtema_actividad">
-                            <h3>Evolución del dinero</h3>
+                            <h3>Filament y sus caracteristicas principales</h3>
                             <p>
-                                La ponencia comenzó hablando sobre cómo ha evolucionado la economía, desde el trueque hasta el dinero digital,
-                                y cómo el Bitcoin ha surgido como una nueva forma de manejar y transferir dinero sin necesidad de bancos ni la intervención del gobierno.
+                                <strong>¿Qué es Filament?</strong>
                             </p>
-                        </div>
-                        <div class="subtema_actividad">
-                            <h3>Funciones del dinero</h3>
-                            <p>
-                                El ponente nos explicó sobre las tres funciones básicas del dinero:
-                            <ul>
-                                <li><strong>Medio de intercambio:</strong> el dinero facilita las transacciones al actuar como un intermediario aceptado por todos.</li>
-                                <li><strong>Depósito de valor:</strong> el dinero permite almacenar riqueza para su uso futuro, manteniendo su valor a lo largo del tiempo.</li>
-                                <li><strong>Unidad de cuenta:</strong> el dinero proporciona una medida común para valorar bienes y servicios, facilitando la comparación de precios.</li>
-                            </ul>
-                            </p>
+                            <p>Es un panel de administración para Laravel que te permite crear dashboards, formularios y sistemas CRUD súper rápido sin tener que escribir todo desde cero.</p>
+                            <p><strong>¿Por qué es útil?</strong></p>
+                            <p>Normalmente construir un panel administrativo toma mucho tiempo y código. Filament lo simplifica: es fácil de usar y muy personalizable, así que en cuestión de minutos se puede tener funcionando un sistema completo.</p>
+                            <p><strong>Caracteristicas principales</strong></p>
+                            <p><ul>
+                                <li><strong>Interfaz moderna:</strong> Usa Tailwind CSS para verse bien y moderno</li>
+                                <li><strong>CRUDs automáticos: </strong> Genera automáticamente toda la lógica para crear, editar y eliminar datos</li>
+                                <li><strong>Panel listo para usar: </strong>No se tiene que partir de cero</li>
+                                <li><strong>Muy personalizable:</strong>  Se puede adaptar a lo que se necesite con plugins y configuraciones</li>
+                                <li><strong>Soporte para formularios, tablas, relaciones:</strong> Maneja datos complejos sin problema</li>
+                                <li><strong>Roles y permisos: </strong>Controla quién puede hacer qué</li>
+                            </ul></p>
                         </div>
                     </div>
 
@@ -309,44 +309,44 @@
                                 <p>BotFather es la herramienta oficial de Telegram para crear y gestionar bots. En el workflow de n8n se utilizó
                                     para generar el bot que recibiría los mensajes y enviaría las respuestas automatizadas.</p>
                                 <p>Entrada – Telegram Trigger
-                                    <ul>
-                                        <li> Concepto: El bot recibe mensajes enviados en Telegram.</li>
-                                        <li>Evento: Cada vez que un usuario escribe un mensaje, se dispara el flujo de trabajo.</li>
-                                    </ul>
+                                <ul>
+                                    <li> Concepto: El bot recibe mensajes enviados en Telegram.</li>
+                                    <li>Evento: Cada vez que un usuario escribe un mensaje, se dispara el flujo de trabajo.</li>
+                                </ul>
                                 </p>
                                 <p>
                                     Procesamiento – AI Assistant
-                                    <ul>
-                                        <li>Concepto: Los mensajes se procesan mediante inteligencia artificial.</li>
-                                        <li>Acción: El asistente de IA genera una respuesta contextualizada, utilizando modelos como GPT.</li>
-                                        <li>Resultado: Mensajes coherentes, precisos y adaptados al contexto del usuario.</li>
-                                    </ul>
+                                <ul>
+                                    <li>Concepto: Los mensajes se procesan mediante inteligencia artificial.</li>
+                                    <li>Acción: El asistente de IA genera una respuesta contextualizada, utilizando modelos como GPT.</li>
+                                    <li>Resultado: Mensajes coherentes, precisos y adaptados al contexto del usuario.</li>
+                                </ul>
                                 </p>
                                 <p>
                                     Salida – Respuesta Automática
-                                    <ul>
-                                        <li>Concepto: La respuesta generada por la IA se envía al usuario automáticamente.</li>
-                                        <li> Medio: Mensaje devuelto a través de Telegram, completando el ciclo de comunicación.</li>
-                                    </ul>
+                                <ul>
+                                    <li>Concepto: La respuesta generada por la IA se envía al usuario automáticamente.</li>
+                                    <li> Medio: Mensaje devuelto a través de Telegram, completando el ciclo de comunicación.</li>
+                                </ul>
                                 </p>
                             </div>
 
-                            
+
                             <section class="galeria">
 
-                        <div class="galeria_img">
-                            <img src="../public/img/Taller3_2.png">
-                        </div>
-                        <div class="galeria_img">
-                            <img src="../public/img/Taller31.png">
-                        </div>
-                        <div class="galeria_img">
-                            <img src="../public/img/Taller3_3.png">
-                        </div>
-                        <div class="galeria_img">
-                            <img src="../public/img/Taller3_4.png">
-                        </div>
-                    </section>
+                                <div class="galeria_img">
+                                    <img src="../public/img/Taller3_2.png">
+                                </div>
+                                <div class="galeria_img">
+                                    <img src="../public/img/Taller31.png">
+                                </div>
+                                <div class="galeria_img">
+                                    <img src="../public/img/Taller3_3.png">
+                                </div>
+                                <div class="galeria_img">
+                                    <img src="../public/img/Taller3_4.png">
+                                </div>
+                            </section>
 
 
                         </div>
