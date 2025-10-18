@@ -248,30 +248,77 @@
                                     <source src="../public/img/feriav.mp4" type="video/mp4">
                                     Tu navegador no soporta el elemento <code>video</code>.
                                 </video>
+
+                        </section>
+                        <section class="galeria">
+                            <div class="galeria_img">
+                                <video controls>
+                                    <source src="../public/img/feriav2.mp4" type="video/mp4">
+                                    Tu navegador no soporta el elemento <code>video</code>.
+                                </video>
+                            </div>
+                            <div class="galeria_img">
+                                <video controls>
+                                    <source src="../public/img/feriav1.mp4" type="video/mp4">
+                                    Tu navegador no soporta el elemento <code>video</code>.
+                                </video>
                             </div>
                         </section>
+
+
+
                     </div>
 
-
-                </div>
-
-                <section class="actividad" id="pupuseada">
-                    <div class="titulo">
-                        <h1>Comelona de Pupusas</h1>
-                    </div>
-                    <hr>
-                    <div class="contenido_actividad">
-                        <div class="subtema_actividad">
-                            <p>
-                               Y finalmente llegó la Comelona de Pupusas, donde 11 participantes se enfrentaron entre sí en un interesante reto: averiguar quien podía comer la mayor cantidad de pupusas en 15 minutos.
-                               Los participantes iniciaron con 5 pupusas cada uno y al terminarlas la cuenta subía de 1 en 1, mientras los demás presentes los animaban y observaban expectantes por saber quien sería el primer lugar.
-                            </p>
-                            <p>Luego de 15 minutos, el momento de anunciar al primer y segundo lugar llegó, con 13 pupusas el segundo lugar se lo llevó Manuel.
-                                Y el primer lugar con 16 pupusas se lo ganó el Ing. Guandique.
-                            </p>
+                    <section class="actividad" id="pupuseada">
+                        <div class="titulo">
+                            <h1>Comelona de Pupusas</h1>
                         </div>
-                    </div>
-                </section>
+                        <hr>
+                        <div class="contenido_actividad">
+                            <div class="subtema_actividad">
+                                <p>
+                                    Y finalmente llegó la Comelona de Pupusas, donde 11 participantes se enfrentaron entre sí en un interesante reto: averiguar quien podía comer la mayor cantidad de pupusas en 15 minutos.
+                                    Los participantes iniciaron con 5 pupusas cada uno y al terminarlas la cuenta subía de 1 en 1, mientras los demás presentes los animaban y observaban expectantes por saber quien sería el primer lugar.
+                                </p>
+                                <p>Luego de 15 minutos, el momento de anunciar al primer y segundo lugar llegó, con 13 pupusas el segundo lugar se lo llevó Manuel.
+                                    Y el primer lugar con 16 pupusas se lo ganó el Ing. Guandique.
+                                </p>
+
+
+                                <section class="galeria">
+
+                                    <div class="galeria_img">
+                                        <img src="../public/img/pupuseada.jpeg">
+                                    </div>
+                                    <div class="galeria_img">
+                                        <img src="../public/img/pupuseada1.jpeg">
+                                    </div>
+                                    <div class="galeria_img">
+                                        <img src="../public/img/pupuseada2.jpeg">
+                                    </div>
+                                    <div class="galeria_img">
+                                        <img src="../public/img/pupuseada3.jpeg">
+                                    </div>
+                                    <div class="galeria_img">
+                                        <img src="../public/img/pupuseada4.jpeg">
+                                    </div>
+
+                                    <div class="galeria_img">
+                                        <video controls>
+                                            <source src="../public/img/pupuseadav.mp4" type="video/mp4">
+                                            Tu navegador no soporta el elemento <code>video</code>.
+                                        </video>
+                                    </div>
+                                    <div class="galeria_img">
+                                        <video controls>
+                                            <source src="../public/img/pupuseadav1.mp4" type="video/mp4">
+                                            Tu navegador no soporta el elemento <code>video</code>.
+                                        </video>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
             </section>
         </section>
 </body>
