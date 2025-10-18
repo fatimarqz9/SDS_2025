@@ -11,6 +11,7 @@ Route::get("/dia4", [HomeController::class, "dayFour"]);
 Route::get("/dia5", [HomeController::class, "dayFive"]);
 Route::get("/perfil", [HomeController::class, "perfil"]);
 Route::get("/registrarVisita", [HomeController::class, "registrarVisita"]);
+Route::post("/save", [HomeController::class, "recibirFormulario"]);
 
 
 Route::dispatch();

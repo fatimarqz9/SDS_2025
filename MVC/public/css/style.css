@@ -339,7 +339,7 @@ html {
 
 main {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #F6FAFD;
@@ -377,6 +377,7 @@ main {
 .datos_generales strong {
     color: #f3f9ff;
 }
+
 .intereses span {
     background-color: #f6fafdab;
     padding: 5px 10px;
@@ -390,8 +391,73 @@ main {
 }
 
 .imagen_T {
-  width: 800px;
-  height: auto;      
-  border-radius: 10px; 
-  border: 2px solid #ddd; 
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.contenedor_visitas {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #122c4f;
+}
+
+.visitas_form {
+    border: 2px solid #000000;
+    padding: 50px;
+    background-color: #F6FAFD;
+    width: 40%;
+    border-radius: 20px;
+
+}
+
+.visitas_form h1 {
+    color: #122c4f;
+    text-align: center;
+}
+
+.indicacion {
+    color: #122c4f;
+    font-weight: 700;
+}
+
+.inp {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #c1d4e7;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #122c4f;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.comentario {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #c1d4e7;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #122c4f;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.comentario::placeholder {
+    font-weight: 500;
+    padding: 5px;
+    color: #122c4f;
 }
