@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title ?></title>
+    <title><?=$title?></title>
 </head>
 
 <body>
@@ -37,32 +37,33 @@
                 <button type="submit">Registrar Visita</button>
             </form>
         </div>
+   
+    <div class="visitas_table">
+        <h2>Lista de Visitas</h2>
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Comentario</th>
+                <th>Fecha</th>
+            </tr>
+
+            <?php foreach ($dataVisitas as $visita) { ?>
+                <tr>
+                    <td><?php echo $visita['idVisita']; ?></td>
+                    <td><?php echo $visita['nombre']; ?></td>
+                    <td><?php echo $visita['email']; ?></td>
+                    <td><?php echo $visita['comentario']; ?></td>
+                    <td><?php echo date("d/m/Y H:i", strtotime($visita['fecha_registro'])); ?></td>
+                </tr>
+            <?php } ?>
+
+        </table>
+    </div>
+        
     </section>
 
-
-    <hr>
-
-    <h2>Lista de Visitas</h2>
-    <table border="1">
-        <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Email</th>
-            <th>Comentario</th>
-            <th>Fecha</th>
-        </tr>
-
-        <?php foreach ($dataVisitas as $visita) { ?>
-            <tr>
-                <td><?php echo $visita['idVisita']; ?></td>
-                <td><?php echo $visita['nombre']; ?></td>
-                <td><?php echo $visita['email']; ?></td>
-                <td><?php echo $visita['comentario']; ?></td>
-                <td><?php echo date("d/m/Y H:i", strtotime($visita['fecha_registro'])); ?></td>
-            </tr>
-        <?php } ?>
-
-    </table>
 </body>
 
 </html>

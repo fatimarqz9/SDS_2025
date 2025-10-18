@@ -67,7 +67,7 @@
                             Cuando alguien completaba correctamente la forma, debía gritar “¡Bingo!” y hacer clic en el botón que aparecía en la pantalla
                             para confirmar su victoria. </p>
                         <p>
-                            Los ganadores fueron premiados con obsequios como audífonos inalámbricos, powerbanks, camisetas, gorras, 
+                            Los ganadores fueron premiados con obsequios como audífonos inalámbricos, powerbanks, camisetas, gorras,
                             bocinas, entre otros premios; un detalle que añadió aún más emoción a la jornada.
                         </p>
 
@@ -121,9 +121,10 @@
                 <hr>
                 <div class="contenido_actividad">
                     <div class="subtema_actividad">
-                        <p>Para finalizar la jornada de la mañana, se entregaron los diplomas a los participantes de la feria de logros que mostraron sus proyectos, 
-                            y se les dio las medallas a los mejores stands de la feria. </p>
-                        
+                        <p>La Semana de Sistemas 2025 concluyó con un evento lleno de emoción y orgullo: la Ceremonia de Reconocimientos, donde se celebró el esfuerzo y talento de los estudiantes de la carrera.</p>
+                        <p>En el acto, se distinguió a los participantes de la Feria de Logros con la entrega de diplomas que simbolizaron su dedicación, creatividad y compromiso con la excelencia académica y profesional.</p>
+                        <p>De igual forma, los equipos que destacaron durante la feria fueron galardonados con medallas honoríficas, resaltando su capacidad de innovación, trabajo colaborativo y liderazgo. Estos reconocimientos representaron un homenaje a la perseverancia y al espíritu emprendedor que caracteriza a los futuros ingenieros en sistemas.</p>
+
                         <h3>Galeria de Premiación.</h3>
 
                         <section class="galeria">
@@ -162,10 +163,10 @@
                 </div>
             </section>
         </section>
-        
+
     </section>
 
 
-        </body>
+</body>
 
 </html>

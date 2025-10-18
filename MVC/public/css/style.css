@@ -399,65 +399,168 @@ main {
 
 .contenedor_visitas {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: #122c4f;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 50px;
+    margin-top: 70px;
 }
 
 .visitas_form {
     border: 2px solid #000000;
     padding: 50px;
     background-color: #F6FAFD;
-    width: 40%;
+    width: 100%;
+    max-width: 500px;
     border-radius: 20px;
-
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .visitas_form h1 {
     color: #122c4f;
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
 }
+
 
 .indicacion {
     color: #122c4f;
     font-weight: 700;
+    display: block;
+    margin-top: 8px;
 }
 
 .inp {
     width: 100%;
-    max-width: 100%;
     border-radius: 5px;
     border: none;
     background-color: #c1d4e7;
-    margin-top: 5px;
-    margin-bottom: 5px;
     color: #122c4f;
     font-weight: 500;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
+    padding: 12px;
     box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.inp:focus {
+    outline: none;
+    background-color: #a8c5d9;
+}
+
+.inp::placeholder {
+    color: #122c4f;
+    font-weight: 500;
 }
 
 .comentario {
-    max-width: 100%;
     width: 100%;
     border-radius: 5px;
     border: none;
     background-color: #c1d4e7;
-    margin-top: 5px;
-    margin-bottom: 5px;
     color: #122c4f;
     font-weight: 500;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px;
     box-sizing: border-box;
+    min-height: 120px;
+    transition: background-color 0.3s ease;
+}
+
+.comentario:focus {
+    outline: none;
+    background-color: #a8c5d9;
 }
 
 .comentario::placeholder {
     font-weight: 500;
-    padding: 5px;
     color: #122c4f;
+}
+
+.visitas_form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #122c4f;
+    color: #F6FAFD;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.visitas_form button:hover {
+    background-color: #1a3d6d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.visitas_form button:active {
+    transform: translateY(0);
+}
+
+.visitas_table {
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px;
+    background-color: #F6FAFD;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.visitas_table h2 {
+    color: #122c4f;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #c1d4e7;
+    color: #122c4f;
+}
+
+table thead {
+    background-color: #122c4f;
+    color: #F6FAFD;
+}
+
+table th {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #122c4f;
+}
+
+table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #122c4f;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #a8c5d9;
+}
+
+table tbody tr:hover {
+    background-color: #8fb3c9;
+    transition: background-color 0.3s ease;
+}
+
+table td:last-child {
+    max-width: 300px;
+    white-space: normal;
 }

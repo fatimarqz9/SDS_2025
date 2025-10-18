@@ -45,7 +45,7 @@ class HomeController extends controller
     {
         $visita = new VisitaModel();
         $data = $visita->getVisita();
-        return $this->view("registrarVisita", [
+        return $this->view("registrarVisita", ["title" => "Registrar Visitas",
             "dataVisitas" => $data
         ]);
     }
@@ -56,6 +56,7 @@ class HomeController extends controller
             $visita = new VisitaModel();
 
             if ($visita->guardarVisita($_POST)) {
+                 $title = "Registrar Visita";
                 return header("Location: registrarVisita");
             }
         }

@@ -2,9 +2,9 @@
 
 namespace app\models;
 
-use lib\Database;
+use lib\database;
 
-class VisitaModel extends Database
+class VisitaModel extends database
 {
 
     public function getVisita()
